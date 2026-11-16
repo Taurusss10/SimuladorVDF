@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="111" result="Passed" total="111" passed="111" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:39:36Z" duration="577,6956253">
+  <test-suite type="TestSuite" id="1470" name="Simulador VDF" fullname="Simulador VDF" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:39:36Z" duration="577.695625" total="111" passed="111" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="SetUpFixture" id="1474" name="VDF.Tests.PlayMode.dll" fullname="VdfModoMandoDeLosTests" classname="VdfModoMandoDeLosTests" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:39:36Z" duration="577.693308" total="111" passed="111" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="27220" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1594" name="VDF" fullname="VDF" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:39:36Z" duration="577.689671" total="111" passed="111" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1595" name="Tests" fullname="VDF.Tests" runstate="Runnable" testcasecount="111" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:39:36Z" duration="577.688248" total="111" passed="111" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1475" name="VdfArranqueTests" fullname="VDF.Tests.VdfArranqueTests" classname="VDF.Tests.VdfArranqueTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:30:14Z" duration="14.898266" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1476" name="LaEscenaDeEscritorioArrancaSinExcepciones" fullname="VDF.Tests.VdfArranqueTests.LaEscenaDeEscritorioArrancaSinExcepciones" methodname="LaEscenaDeEscritorioArrancaSinExcepciones" classname="VDF.Tests.VdfArranqueTests" runstate="Runnable" seed="491026285" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:29:59Z" duration="0.535019" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1477" name="LaEscenaDeVrArrancaSinExcepciones" fullname="VDF.Tests.VdfArranqueTests.LaEscenaDeVrArrancaSinExcepciones" methodname="LaEscenaDeVrArrancaSinExcepciones" classname="VDF.Tests.VdfArranqueTests" runstate="Runnable" seed="591871424" result="Passed" start-time="2026-11-16 05:29:59Z" end-time="2026-11-16 05:30:00Z" duration="0.602414" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1478" name="StartYSubirLlevanElMotorALaPrimeraVelocidad" fullname="VDF.Tests.VdfArranqueTests.StartYSubirLlevanElMotorALaPrimeraVelocidad" methodname="StartYSubirLlevanElMotorALaPrimeraVelocidad" classname="VDF.Tests.VdfArranqueTests" runstate="Runnable" seed="458288070" result="Passed" start-time="2026-11-16 05:30:00Z" end-time="2026-11-16 05:30:10Z" duration="10.303004" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1479" name="StopDevuelveATodoAReposo" fullname="VDF.Tests.VdfArranqueTests.StopDevuelveATodoAReposo" methodname="StopDevuelveATodoAReposo" classname="VDF.Tests.VdfArranqueTests" runstate="Runnable" seed="548854039" result="Passed" start-time="2026-11-16 05:30:10Z" end-time="2026-11-16 05:30:14Z" duration="3.453599" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1480" name="VdfAtajosYLupaTests" fullname="VDF.Tests.VdfAtajosYLupaTests" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-16 05:30:14Z" end-time="2026-11-16 05:30:24Z" duration="9.963655" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1482" name="ApuntandoAlVariadorElJoystickYAManejanElTeclado" fullname="VDF.Tests.VdfAtajosYLupaTests.ApuntandoAlVariadorElJoystickYAManejanElTeclado" methodname="ApuntandoAlVariadorElJoystickYAManejanElTeclado" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" seed="867814879" result="Passed" start-time="2026-11-16 05:30:14Z" end-time="2026-11-16 05:30:15Z" duration="1.492461" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1481" name="LaEscenaDeVrMontaLosAtajosYLaLupa" fullname="VDF.Tests.VdfAtajosYLupaTests.LaEscenaDeVrMontaLosAtajosYLaLupa" methodname="LaEscenaDeVrMontaLosAtajosYLaLupa" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" seed="1910271534" result="Passed" start-time="2026-11-16 05:30:15Z" end-time="2026-11-16 05:30:16Z" duration="0.600289" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1486" name="LaLupaDibujaLoQueTieneDelante" fullname="VDF.Tests.VdfAtajosYLupaTests.LaLupaDibujaLoQueTieneDelante" methodname="LaLupaDibujaLoQueTieneDelante" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" seed="797048158" result="Passed" start-time="2026-11-16 05:30:16Z" end-time="2026-11-16 05:30:19Z" duration="3.562541" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+]]></output>
+            </test-case>
+            <test-case id="1483" name="MientrasSeApuntaAlVariadorElJoystickNoTeletransporta" fullname="VDF.Tests.VdfAtajosYLupaTests.MientrasSeApuntaAlVariadorElJoystickNoTeletransporta" methodname="MientrasSeApuntaAlVariadorElJoystickNoTeletransporta" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" seed="5697723" result="Passed" start-time="2026-11-16 05:30:19Z" end-time="2026-11-16 05:30:21Z" duration="1.441028" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1484" name="SinApuntarAlVariadorElBotonANoTocaElTeclado" fullname="VDF.Tests.VdfAtajosYLupaTests.SinApuntarAlVariadorElBotonANoTocaElTeclado" methodname="SinApuntarAlVariadorElBotonANoTocaElTeclado" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" seed="351104987" result="Passed" start-time="2026-11-16 05:30:21Z" end-time="2026-11-16 05:30:21Z" duration="0.775268" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1485" name="XMuestraLaLupaEYCambiaElAumento" fullname="VDF.Tests.VdfAtajosYLupaTests.XMuestraLaLupaEYCambiaElAumento" methodname="XMuestraLaLupaEYCambiaElAumento" classname="VDF.Tests.VdfAtajosYLupaTests" runstate="Runnable" seed="1536544620" result="Passed" start-time="2026-11-16 05:30:21Z" end-time="2026-11-16 05:30:24Z" duration="2.086922" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1487" name="VdfEscenaVrTests" fullname="VDF.Tests.VdfEscenaVrTests" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" testcasecount="39" result="Passed" start-time="2026-11-16 05:30:24Z" end-time="2026-11-16 05:30:58Z" duration="34.249307" total="39" passed="39" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1502" name="AlAbrirLaApp_LaPractica1ArrancaComoEstaDefinida" fullname="VDF.Tests.VdfEscenaVrTests.AlAbrirLaApp_LaPractica1ArrancaComoEstaDefinida" methodname="AlAbrirLaApp_LaPractica1ArrancaComoEstaDefinida" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="652505403" result="Passed" start-time="2026-11-16 05:30:24Z" end-time="2026-11-16 05:30:24Z" duration="0.867610" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1521" name="AlAbrirLaApp_LosCablesYaEstanOcultos" fullname="VDF.Tests.VdfEscenaVrTests.AlAbrirLaApp_LosCablesYaEstanOcultos" methodname="AlAbrirLaApp_LosCablesYaEstanOcultos" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1565756861" result="Passed" start-time="2026-11-16 05:30:24Z" end-time="2026-11-16 05:30:25Z" duration="0.784106" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1512" name="AlApuntarUnBorne_SuNombreSaleEnGrande" fullname="VDF.Tests.VdfEscenaVrTests.AlApuntarUnBorne_SuNombreSaleEnGrande" methodname="AlApuntarUnBorne_SuNombreSaleEnGrande" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="71499806" result="Passed" start-time="2026-11-16 05:30:25Z" end-time="2026-11-16 05:30:26Z" duration="0.524451" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1514" name="AlVolverALaPractica1_NoQuedaNingunaPuntaClavada" fullname="VDF.Tests.VdfEscenaVrTests.AlVolverALaPractica1_NoQuedaNingunaPuntaClavada" methodname="AlVolverALaPractica1_NoQuedaNingunaPuntaClavada" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="289133266" result="Passed" start-time="2026-11-16 05:30:26Z" end-time="2026-11-16 05:30:27Z" duration="1.106932" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1522" name="DeUnaPracticaCableadaALaDeCablear_NoVuelveNingunaPuntaAlTablero" fullname="VDF.Tests.VdfEscenaVrTests.DeUnaPracticaCableadaALaDeCablear_NoVuelveNingunaPuntaAlTablero" methodname="DeUnaPracticaCableadaALaDeCablear_NoVuelveNingunaPuntaAlTablero" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="718800208" result="Passed" start-time="2026-11-16 05:30:27Z" end-time="2026-11-16 05:30:29Z" duration="2.039777" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1519" name="DosCablesEnElMismoBorne_SeApilanYUnenLaRed" fullname="VDF.Tests.VdfEscenaVrTests.DosCablesEnElMismoBorne_SeApilanYUnenLaRed" methodname="DosCablesEnElMismoBorne_SeApilanYUnenLaRed" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1658221948" result="Passed" start-time="2026-11-16 05:30:29Z" end-time="2026-11-16 05:30:30Z" duration="0.743453" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1490" name="ElCableadoDeVr_LlegaHastaLaValidacion" fullname="VDF.Tests.VdfEscenaVrTests.ElCableadoDeVr_LlegaHastaLaValidacion" methodname="ElCableadoDeVr_LlegaHastaLaValidacion" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="715482657" result="Passed" start-time="2026-11-16 05:30:30Z" end-time="2026-11-16 05:30:30Z" duration="0.834917" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1506" name="ElMando_EstaAjustadoAlSimulador" fullname="VDF.Tests.VdfEscenaVrTests.ElMando_EstaAjustadoAlSimulador" methodname="ElMando_EstaAjustadoAlSimulador" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="849141405" result="Passed" start-time="2026-11-16 05:30:30Z" end-time="2026-11-16 05:30:31Z" duration="0.534391" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1515" name="ElTeletransporte_NoLlegaDebajoDeLaMesa" fullname="VDF.Tests.VdfEscenaVrTests.ElTeletransporte_NoLlegaDebajoDeLaMesa" methodname="ElTeletransporte_NoLlegaDebajoDeLaMesa" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="179285302" result="Passed" start-time="2026-11-16 05:30:31Z" end-time="2026-11-16 05:30:31Z" duration="0.510248" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1509" name="EnElReconocimiento_ElObjetivoLlevaUnAro" fullname="VDF.Tests.VdfEscenaVrTests.EnElReconocimiento_ElObjetivoLlevaUnAro" methodname="EnElReconocimiento_ElObjetivoLlevaUnAro" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1823869618" result="Passed" start-time="2026-11-16 05:30:31Z" end-time="2026-11-16 05:30:32Z" duration="0.745967" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1510" name="EnElReconocimiento_PulsarStartSoloLoSenala" fullname="VDF.Tests.VdfEscenaVrTests.EnElReconocimiento_PulsarStartSoloLoSenala" methodname="EnElReconocimiento_PulsarStartSoloLoSenala" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="496040397" result="Passed" start-time="2026-11-16 05:30:32Z" end-time="2026-11-16 05:30:33Z" duration="0.592277" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1507" name="EnElVisor_LasPracticasAvanzanPorLosPuentesDelMando" fullname="VDF.Tests.VdfEscenaVrTests.EnElVisor_LasPracticasAvanzanPorLosPuentesDelMando" methodname="EnElVisor_LasPracticasAvanzanPorLosPuentesDelMando" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1415701188" result="Passed" start-time="2026-11-16 05:30:33Z" end-time="2026-11-16 05:30:37Z" duration="3.826654" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1505" name="EnElVisor_SenalarDosBornes_NoTiendeUnCable" fullname="VDF.Tests.VdfEscenaVrTests.EnElVisor_SenalarDosBornes_NoTiendeUnCable" methodname="EnElVisor_SenalarDosBornes_NoTiendeUnCable" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="860557409" result="Passed" start-time="2026-11-16 05:30:37Z" end-time="2026-11-16 05:30:37Z" duration="0.593599" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1511" name="EnLaPractica2_RunNoArrancaElMotorYLaGuiaLoExplica" fullname="VDF.Tests.VdfEscenaVrTests.EnLaPractica2_RunNoArrancaElMotorYLaGuiaLoExplica" methodname="EnLaPractica2_RunNoArrancaElMotorYLaGuiaLoExplica" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="568393308" result="Passed" start-time="2026-11-16 05:30:37Z" end-time="2026-11-16 05:30:38Z" duration="1.040115" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1525" name="EnNingunPaso_ElTextoDeLaGuiaSeSaleDeSuCaja" fullname="VDF.Tests.VdfEscenaVrTests.EnNingunPaso_ElTextoDeLaGuiaSeSaleDeSuCaja" methodname="EnNingunPaso_ElTextoDeLaGuiaSeSaleDeSuCaja" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1849403573" result="Passed" start-time="2026-11-16 05:30:38Z" end-time="2026-11-16 05:30:40Z" duration="1.409249" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1520" name="EnReconocimiento_NoSeVenLosCables" fullname="VDF.Tests.VdfEscenaVrTests.EnReconocimiento_NoSeVenLosCables" methodname="EnReconocimiento_NoSeVenLosCables" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1985230472" result="Passed" start-time="2026-11-16 05:30:40Z" end-time="2026-11-16 05:30:40Z" duration="0.656494" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1495" name="EnVr_ElModuloSeOperaIgual" fullname="VDF.Tests.VdfEscenaVrTests.EnVr_ElModuloSeOperaIgual" methodname="EnVr_ElModuloSeOperaIgual" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="936049536" result="Passed" start-time="2026-11-16 05:30:40Z" end-time="2026-11-16 05:30:44Z" duration="3.792088" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1497" name="EnVr_ElTecladoDelVariadorExiste" fullname="VDF.Tests.VdfEscenaVrTests.EnVr_ElTecladoDelVariadorExiste" methodname="EnVr_ElTecladoDelVariadorExiste" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="53214918" result="Passed" start-time="2026-11-16 05:30:44Z" end-time="2026-11-16 05:30:45Z" duration="0.551285" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1498" name="EnVr_LasCincoPracticasSePuedenEmpezar" fullname="VDF.Tests.VdfEscenaVrTests.EnVr_LasCincoPracticasSePuedenEmpezar" methodname="EnVr_LasCincoPracticasSePuedenEmpezar" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1131193284" result="Passed" start-time="2026-11-16 05:30:45Z" end-time="2026-11-16 05:30:46Z" duration="1.120063" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1496" name="EnVr_LosPulsadoresDelTableroEstanAccionables" fullname="VDF.Tests.VdfEscenaVrTests.EnVr_LosPulsadoresDelTableroEstanAccionables" methodname="EnVr_LosPulsadoresDelTableroEstanAccionables" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="360349918" result="Passed" start-time="2026-11-16 05:30:46Z" end-time="2026-11-16 05:30:46Z" duration="0.531268" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1492" name="EnVr_SoltarTodoDejaElModuloSinCablear" fullname="VDF.Tests.VdfEscenaVrTests.EnVr_SoltarTodoDejaElModuloSinCablear" methodname="EnVr_SoltarTodoDejaElModuloSinCablear" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="66537964" result="Passed" start-time="2026-11-16 05:30:46Z" end-time="2026-11-16 05:30:47Z" duration="0.847166" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1493" name="EnVr_UnaPracticaSinCablear_ArrancaSinCables" fullname="VDF.Tests.VdfEscenaVrTests.EnVr_UnaPracticaSinCablear_ArrancaSinCables" methodname="EnVr_UnaPracticaSinCablear_ArrancaSinCables" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="20663647" result="Passed" start-time="2026-11-16 05:30:47Z" end-time="2026-11-16 05:30:48Z" duration="0.563257" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1489" name="HayCablesSuficientes_ParaElCableadoCompleto" fullname="VDF.Tests.VdfEscenaVrTests.HayCablesSuficientes_ParaElCableadoCompleto" methodname="HayCablesSuficientes_ParaElCableadoCompleto" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1440446113" result="Passed" start-time="2026-11-16 05:30:48Z" end-time="2026-11-16 05:30:48Z" duration="0.512329" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1523" name="LaAveriaDeCable_DejaElCableSueltoALaVista" fullname="VDF.Tests.VdfEscenaVrTests.LaAveriaDeCable_DejaElCableSueltoALaVista" methodname="LaAveriaDeCable_DejaElCableSueltoALaVista" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="2106276936" result="Passed" start-time="2026-11-16 05:30:48Z" end-time="2026-11-16 05:30:49Z" duration="0.810934" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1499" name="LaEscena_NoLlevaPiezasDeDesarrolloDentro" fullname="VDF.Tests.VdfEscenaVrTests.LaEscena_NoLlevaPiezasDeDesarrolloDentro" methodname="LaEscena_NoLlevaPiezasDeDesarrolloDentro" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="320479217" result="Passed" start-time="2026-11-16 05:30:49Z" end-time="2026-11-16 05:30:50Z" duration="0.538998" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1488" name="LaEscenaDeVr_TieneCableadoYCables" fullname="VDF.Tests.VdfEscenaVrTests.LaEscenaDeVr_TieneCableadoYCables" methodname="LaEscenaDeVr_TieneCableadoYCables" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1918806659" result="Passed" start-time="2026-11-16 05:30:50Z" end-time="2026-11-16 05:30:50Z" duration="0.527075" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1508" name="LaEtiquetaDeUnaTecla_NoTapaNiLaPantallaNiOtrasTeclas" fullname="VDF.Tests.VdfEscenaVrTests.LaEtiquetaDeUnaTecla_NoTapaNiLaPantallaNiOtrasTeclas" methodname="LaEtiquetaDeUnaTecla_NoTapaNiLaPantallaNiOtrasTeclas" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1466430393" result="Passed" start-time="2026-11-16 05:30:50Z" end-time="2026-11-16 05:30:51Z" duration="0.570836" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1526" name="LaExplicacionDeCadaAveria_CabeEnElPanel" fullname="VDF.Tests.VdfEscenaVrTests.LaExplicacionDeCadaAveria_CabeEnElPanel" methodname="LaExplicacionDeCadaAveria_CabeEnElPanel" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1924501500" result="Passed" start-time="2026-11-16 05:30:51Z" end-time="2026-11-16 05:30:51Z" duration="0.518839" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1513" name="LaGuiaYElMenu_SeLeenDesdeLosPuestos" fullname="VDF.Tests.VdfEscenaVrTests.LaGuiaYElMenu_SeLeenDesdeLosPuestos" methodname="LaGuiaYElMenu_SeLeenDesdeLosPuestos" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1975167651" result="Passed" start-time="2026-11-16 05:30:51Z" end-time="2026-11-16 05:30:52Z" duration="0.517513" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1517" name="LaPistaDelBorneBuscado_EstaEnLaEscena" fullname="VDF.Tests.VdfEscenaVrTests.LaPistaDelBorneBuscado_EstaEnLaEscena" methodname="LaPistaDelBorneBuscado_EstaEnLaEscena" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="57109549" result="Passed" start-time="2026-11-16 05:30:52Z" end-time="2026-11-16 05:30:52Z" duration="0.516125" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1524" name="LaPuntaSueltaDeSc_QuedaEncimaDeLaMesa" fullname="VDF.Tests.VdfEscenaVrTests.LaPuntaSueltaDeSc_QuedaEncimaDeLaMesa" methodname="LaPuntaSueltaDeSc_QuedaEncimaDeLaMesa" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1897978128" result="Passed" start-time="2026-11-16 05:30:52Z" end-time="2026-11-16 05:30:53Z" duration="0.801986" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1491" name="LaSimulacionSeEntera_DelCableadoHechoEnVr" fullname="VDF.Tests.VdfEscenaVrTests.LaSimulacionSeEntera_DelCableadoHechoEnVr" methodname="LaSimulacionSeEntera_DelCableadoHechoEnVr" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1152599239" result="Passed" start-time="2026-11-16 05:30:53Z" end-time="2026-11-16 05:30:54Z" duration="0.823898" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1503" name="LasTeclasYLosPulsadores_LosVenElRayoYElToque" fullname="VDF.Tests.VdfEscenaVrTests.LasTeclasYLosPulsadores_LosVenElRayoYElToque" methodname="LasTeclasYLosPulsadores_LosVenElRayoYElToque" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1006692447" result="Passed" start-time="2026-11-16 05:30:54Z" end-time="2026-11-16 05:30:54Z" duration="0.517371" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1500" name="NingunBorne_PuedeRobarleElCableAlVecino" fullname="VDF.Tests.VdfEscenaVrTests.NingunBorne_PuedeRobarleElCableAlVecino" methodname="NingunBorne_PuedeRobarleElCableAlVecino" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1938982161" result="Passed" start-time="2026-11-16 05:30:54Z" end-time="2026-11-16 05:30:55Z" duration="0.515031" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1516" name="NingunJoystick_DeslizaAlJugador" fullname="VDF.Tests.VdfEscenaVrTests.NingunJoystick_DeslizaAlJugador" methodname="NingunJoystick_DeslizaAlJugador" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1711138269" result="Passed" start-time="2026-11-16 05:30:55Z" end-time="2026-11-16 05:30:55Z" duration="0.513659" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1494" name="TodoBorneDelEsquema_TieneSocketEnVr" fullname="VDF.Tests.VdfEscenaVrTests.TodoBorneDelEsquema_TieneSocketEnVr" methodname="TodoBorneDelEsquema_TieneSocketEnVr" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="54393" result="Passed" start-time="2026-11-16 05:30:55Z" end-time="2026-11-16 05:30:56Z" duration="0.517174" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1501" name="TodoLoQueSeTocaResponde_TambienEnElVisor" fullname="VDF.Tests.VdfEscenaVrTests.TodoLoQueSeTocaResponde_TambienEnElVisor" methodname="TodoLoQueSeTocaResponde_TambienEnElVisor" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="888143037" result="Passed" start-time="2026-11-16 05:30:56Z" end-time="2026-11-16 05:30:56Z" duration="0.517842" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1504" name="TodoLoTocable_LoAlcanzaElMandoComoEstaConfigurado" fullname="VDF.Tests.VdfEscenaVrTests.TodoLoTocable_LoAlcanzaElMandoComoEstaConfigurado" methodname="TodoLoTocable_LoAlcanzaElMandoComoEstaConfigurado" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1914055883" result="Passed" start-time="2026-11-16 05:30:56Z" end-time="2026-11-16 05:30:57Z" duration="0.525391" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1518" name="UnaPuntaEnchufadaEnElPlc_SeAlcanzaAntesQueElBorne" fullname="VDF.Tests.VdfEscenaVrTests.UnaPuntaEnchufadaEnElPlc_SeAlcanzaAntesQueElBorne" methodname="UnaPuntaEnchufadaEnElPlc_SeAlcanzaAntesQueElBorne" classname="VDF.Tests.VdfEscenaVrTests" runstate="Runnable" seed="1891292926" result="Passed" start-time="2026-11-16 05:30:57Z" end-time="2026-11-16 05:30:58Z" duration="0.775329" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1527" name="VdfFueraDeGuionTests" fullname="VDF.Tests.VdfFueraDeGuionTests" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-11-16 05:30:58Z" end-time="2026-11-16 05:33:00Z" duration="122.019821" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1530" name="AporrearBajar_NoDejaElNivelEnNegativo" fullname="VDF.Tests.VdfFueraDeGuionTests.AporrearBajar_NoDejaElNivelEnNegativo" methodname="AporrearBajar_NoDejaElNivelEnNegativo" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="284558383" result="Passed" start-time="2026-11-16 05:30:58Z" end-time="2026-11-16 05:31:02Z" duration="3.922163" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1529" name="AporrearSubir_SeQuedaEnLaCuartaYNoMataElMotor" fullname="VDF.Tests.VdfFueraDeGuionTests.AporrearSubir_SeQuedaEnLaCuartaYNoMataElMotor" methodname="AporrearSubir_SeQuedaEnLaCuartaYNoMataElMotor" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1199137905" result="Passed" start-time="2026-11-16 05:31:02Z" end-time="2026-11-16 05:31:08Z" duration="6.405264" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1531" name="ArrepentirseAMitadDelRetardo_AcabaEnElNivelQueSePidioUltimo" fullname="VDF.Tests.VdfFueraDeGuionTests.ArrepentirseAMitadDelRetardo_AcabaEnElNivelQueSePidioUltimo" methodname="ArrepentirseAMitadDelRetardo_AcabaEnElNivelQueSePidioUltimo" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1614896811" result="Passed" start-time="2026-11-16 05:31:08Z" end-time="2026-11-16 05:31:17Z" duration="8.430179" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1542" name="BorrarTodoElCableado_EsRecuperable" fullname="VDF.Tests.VdfFueraDeGuionTests.BorrarTodoElCableado_EsRecuperable" methodname="BorrarTodoElCableado_EsRecuperable" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1318425559" result="Passed" start-time="2026-11-16 05:31:17Z" end-time="2026-11-16 05:31:20Z" duration="3.003926" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1540" name="CablearAlAzar_NoDaPorBuenoElCableado" fullname="VDF.Tests.VdfFueraDeGuionTests.CablearAlAzar_NoDaPorBuenoElCableado" methodname="CablearAlAzar_NoDaPorBuenoElCableado" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="625525509" result="Passed" start-time="2026-11-16 05:31:20Z" end-time="2026-11-16 05:31:20Z" duration="0.540471" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1541" name="CablesAbsurdos_NoRompenElGrafo" fullname="VDF.Tests.VdfFueraDeGuionTests.CablesAbsurdos_NoRompenElGrafo" methodname="CablesAbsurdos_NoRompenElGrafo" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1630131076" result="Passed" start-time="2026-11-16 05:31:20Z" end-time="2026-11-16 05:31:21Z" duration="0.470100" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1538" name="CambiarDePracticaAMedias_NoDejaNadaColgado" fullname="VDF.Tests.VdfFueraDeGuionTests.CambiarDePracticaAMedias_NoDejaNadaColgado" methodname="CambiarDePracticaAMedias_NoDejaNadaColgado" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="591552363" result="Passed" start-time="2026-11-16 05:31:21Z" end-time="2026-11-16 05:31:36Z" duration="15.521013" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1533" name="ConElHongoPulsado_NadaArranca" fullname="VDF.Tests.VdfFueraDeGuionTests.ConElHongoPulsado_NadaArranca" methodname="ConElHongoPulsado_NadaArranca" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="316931767" result="Passed" start-time="2026-11-16 05:31:36Z" end-time="2026-11-16 05:31:44Z" duration="7.502121" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1544" name="ConH101EnUno_ElModuloNoArrancaDesdeLosBornes" fullname="VDF.Tests.VdfFueraDeGuionTests.ConH101EnUno_ElModuloNoArrancaDesdeLosBornes" methodname="ConH101EnUno_ElModuloNoArrancaDesdeLosBornes" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="390450152" result="Passed" start-time="2026-11-16 05:31:44Z" end-time="2026-11-16 05:31:53Z" duration="9.749360" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1535" name="ElHongoPulsadoDosVeces_SigueEnclavado" fullname="VDF.Tests.VdfFueraDeGuionTests.ElHongoPulsadoDosVeces_SigueEnclavado" methodname="ElHongoPulsadoDosVeces_SigueEnclavado" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="2109262732" result="Passed" start-time="2026-11-16 05:31:53Z" end-time="2026-11-16 05:31:54Z" duration="0.411027" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1539" name="LasCincoSeguidas_NingunaDejaElModuloInservible" fullname="VDF.Tests.VdfFueraDeGuionTests.LasCincoSeguidas_NingunaDejaElModuloInservible" methodname="LasCincoSeguidas_NingunaDejaElModuloInservible" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1691486037" result="Passed" start-time="2026-11-16 05:31:54Z" end-time="2026-11-16 05:32:11Z" duration="17.131545" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1545" name="LosCables_SeApoyanEnLaMesaYNoLaAtraviesan" fullname="VDF.Tests.VdfFueraDeGuionTests.LosCables_SeApoyanEnLaMesaYNoLaAtraviesan" methodname="LosCables_SeApoyanEnLaMesaYNoLaAtraviesan" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1696024116" result="Passed" start-time="2026-11-16 05:32:11Z" end-time="2026-11-16 05:32:13Z" duration="2.331952" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1543" name="ParametrosDisparatados_AvisanYSePuedenArreglar" fullname="VDF.Tests.VdfFueraDeGuionTests.ParametrosDisparatados_AvisanYSePuedenArreglar" methodname="ParametrosDisparatados_AvisanYSePuedenArreglar" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="1996922324" result="Passed" start-time="2026-11-16 05:32:13Z" end-time="2026-11-16 05:32:14Z" duration="0.416101" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1528" name="PulsarloTodoSinArrancar_NoMueveElMotor" fullname="VDF.Tests.VdfFueraDeGuionTests.PulsarloTodoSinArrancar_NoMueveElMotor" methodname="PulsarloTodoSinArrancar_NoMueveElMotor" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="965852512" result="Passed" start-time="2026-11-16 05:32:14Z" end-time="2026-11-16 05:32:18Z" duration="3.904116" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1534" name="RearmarDejaEnReposo_NoRelanzaElMotor" fullname="VDF.Tests.VdfFueraDeGuionTests.RearmarDejaEnReposo_NoRelanzaElMotor" methodname="RearmarDejaEnReposo_NoRelanzaElMotor" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="398082143" result="Passed" start-time="2026-11-16 05:32:18Z" end-time="2026-11-16 05:32:28Z" duration="10.409889" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1537" name="RomperElCableado_DesmarcaElPasoDelCableado" fullname="VDF.Tests.VdfFueraDeGuionTests.RomperElCableado_DesmarcaElPasoDelCableado" methodname="RomperElCableado_DesmarcaElPasoDelCableado" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="2013041959" result="Passed" start-time="2026-11-16 05:32:28Z" end-time="2026-11-16 05:32:31Z" duration="3.526196" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1532" name="StopDuranteElRetardo_NoResucitaElMotorDespues" fullname="VDF.Tests.VdfFueraDeGuionTests.StopDuranteElRetardo_NoResucitaElMotorDespues" methodname="StopDuranteElRetardo_NoResucitaElMotorDespues" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="630965459" result="Passed" start-time="2026-11-16 05:32:31Z" end-time="2026-11-16 05:32:37Z" duration="5.427035" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1536" name="SubirYLuegoBajar_NoDeshaceElProgresoDeLaPractica4" fullname="VDF.Tests.VdfFueraDeGuionTests.SubirYLuegoBajar_NoDeshaceElProgresoDeLaPractica4" methodname="SubirYLuegoBajar_NoDeshaceElProgresoDeLaPractica4" classname="VDF.Tests.VdfFueraDeGuionTests" runstate="Runnable" seed="27708901" result="Passed" start-time="2026-11-16 05:32:37Z" end-time="2026-11-16 05:33:00Z" duration="22.908761" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1546" name="VdfMandoRealTests" fullname="VDF.Tests.VdfMandoRealTests" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-11-16 05:33:00Z" end-time="2026-11-16 05:33:15Z" duration="14.970162" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1547" name="ElGatillo_CierraLaBienvenida" fullname="VDF.Tests.VdfMandoRealTests.ElGatillo_CierraLaBienvenida" methodname="ElGatillo_CierraLaBienvenida" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="335447978" result="Passed" start-time="2026-11-16 05:33:00Z" end-time="2026-11-16 05:33:01Z" duration="1.264810" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1550" name="ElGatillo_PulsaStart" fullname="VDF.Tests.VdfMandoRealTests.ElGatillo_PulsaStart" methodname="ElGatillo_PulsaStart" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="639125791" result="Passed" start-time="2026-11-16 05:33:01Z" end-time="2026-11-16 05:33:03Z" duration="1.561927" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1549" name="ElGatillo_PulsaUnaTeclaDelVariador" fullname="VDF.Tests.VdfMandoRealTests.ElGatillo_PulsaUnaTeclaDelVariador" methodname="ElGatillo_PulsaUnaTeclaDelVariador" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="1548803764" result="Passed" start-time="2026-11-16 05:33:03Z" end-time="2026-11-16 05:33:04Z" duration="1.254298" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1551" name="ElGatillo_SenalaUnBorne" fullname="VDF.Tests.VdfMandoRealTests.ElGatillo_SenalaUnBorne" methodname="ElGatillo_SenalaUnBorne" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="763492520" result="Passed" start-time="2026-11-16 05:33:04Z" end-time="2026-11-16 05:33:06Z" duration="2.442068" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1548" name="ElLateral_EligeUnaPracticaEnElMenu" fullname="VDF.Tests.VdfMandoRealTests.ElLateral_EligeUnaPracticaEnElMenu" methodname="ElLateral_EligeUnaPracticaEnElMenu" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="44241356" result="Passed" start-time="2026-11-16 05:33:06Z" end-time="2026-11-16 05:33:08Z" duration="1.468273" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1556" name="LoQueHayQueSenalar_BrillaEnAmarillo" fullname="VDF.Tests.VdfMandoRealTests.LoQueHayQueSenalar_BrillaEnAmarillo" methodname="LoQueHayQueSenalar_BrillaEnAmarillo" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="299225080" result="Passed" start-time="2026-11-16 05:33:08Z" end-time="2026-11-16 05:33:08Z" duration="0.571241" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1553" name="TocarConLaPunta_PulsaStart" fullname="VDF.Tests.VdfMandoRealTests.TocarConLaPunta_PulsaStart" methodname="TocarConLaPunta_PulsaStart" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="1835854891" result="Passed" start-time="2026-11-16 05:33:08Z" end-time="2026-11-16 05:33:10Z" duration="1.280202" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1552" name="TocarConLaPunta_PulsaUnaTecla" fullname="VDF.Tests.VdfMandoRealTests.TocarConLaPunta_PulsaUnaTecla" methodname="TocarConLaPunta_PulsaUnaTecla" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="331081199" result="Passed" start-time="2026-11-16 05:33:10Z" end-time="2026-11-16 05:33:10Z" duration="0.759305" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1554" name="UnCable_SeEnchufaConElMando" fullname="VDF.Tests.VdfMandoRealTests.UnCable_SeEnchufaConElMando" methodname="UnCable_SeEnchufaConElMando" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="314298413" result="Passed" start-time="2026-11-16 05:33:10Z" end-time="2026-11-16 05:33:13Z" duration="2.191969" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+            <test-case id="1555" name="UnCableSoltadoCerca_EncajaEnElBorneMasCercano" fullname="VDF.Tests.VdfMandoRealTests.UnCableSoltadoCerca_EncajaEnElBorneMasCercano" methodname="UnCableSoltadoCerca_EncajaEnElBorneMasCercano" classname="VDF.Tests.VdfMandoRealTests" runstate="Runnable" seed="1653518381" result="Passed" start-time="2026-11-16 05:33:13Z" end-time="2026-11-16 05:33:15Z" duration="2.170196" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Failed to get haptic capabilities of XRSimulatedController:/VdfSimIzq, error code -1. Continuing assuming a single haptic channel.
+Failed to get haptic capabilities of XRSimulatedController:/VdfSimDer, error code -1. Continuing assuming a single haptic channel.
+]]></output>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1557" name="VdfRecorridoPracticasTests" fullname="VDF.Tests.VdfRecorridoPracticasTests" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" testcasecount="15" result="Passed" start-time="2026-11-16 05:33:15Z" end-time="2026-11-16 05:35:01Z" duration="105.985098" total="15" passed="15" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1562" name="ElCableadoEsperado_SoloNombraBornesQueExisten" fullname="VDF.Tests.VdfRecorridoPracticasTests.ElCableadoEsperado_SoloNombraBornesQueExisten" methodname="ElCableadoEsperado_SoloNombraBornesQueExisten" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1603474913" result="Passed" start-time="2026-11-16 05:33:15Z" end-time="2026-11-16 05:33:15Z" duration="0.431390" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1570" name="ElPanelDeDiagnostico_OfreceTodasLasAverias" fullname="VDF.Tests.VdfRecorridoPracticasTests.ElPanelDeDiagnostico_OfreceTodasLasAverias" methodname="ElPanelDeDiagnostico_OfreceTodasLasAverias" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="459876235" result="Passed" start-time="2026-11-16 05:33:15Z" end-time="2026-11-16 05:33:16Z" duration="0.416450" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1565" name="EnEscritorio_CadaVistaEncuadraSuPieza" fullname="VDF.Tests.VdfRecorridoPracticasTests.EnEscritorio_CadaVistaEncuadraSuPieza" methodname="EnEscritorio_CadaVistaEncuadraSuPieza" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="754991604" result="Passed" start-time="2026-11-16 05:33:16Z" end-time="2026-11-16 05:33:16Z" duration="0.409189" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1567" name="EnLaEscena_ElMotorSeParaAlCambiarDeNivel" fullname="VDF.Tests.VdfRecorridoPracticasTests.EnLaEscena_ElMotorSeParaAlCambiarDeNivel" methodname="EnLaEscena_ElMotorSeParaAlCambiarDeNivel" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="478319894" result="Passed" start-time="2026-11-16 05:33:16Z" end-time="2026-11-16 05:33:22Z" duration="6.411475" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1566" name="LaEscena_SaleConLaPracticaDelLaboratorio" fullname="VDF.Tests.VdfRecorridoPracticasTests.LaEscena_SaleConLaPracticaDelLaboratorio" methodname="LaEscena_SaleConLaPracticaDelLaboratorio" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="185164433" result="Passed" start-time="2026-11-16 05:33:22Z" end-time="2026-11-16 05:33:34Z" duration="11.953299" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1558" name="Practica1_SeCompletaIdentificandoLoQuePide" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica1_SeCompletaIdentificandoLoQuePide" methodname="Practica1_SeCompletaIdentificandoLoQuePide" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1057383766" result="Passed" start-time="2026-11-16 05:33:34Z" end-time="2026-11-16 05:33:35Z" duration="0.498994" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1559" name="Practica1_TodoLoQuePideExisteEnElTablero" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica1_TodoLoQuePideExisteEnElTablero" methodname="Practica1_TodoLoQuePideExisteEnElTablero" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="91215682" result="Passed" start-time="2026-11-16 05:33:35Z" end-time="2026-11-16 05:33:35Z" duration="0.407914" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1560" name="Practica2_SeCompletaProgramandoLosParametros" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica2_SeCompletaProgramandoLosParametros" methodname="Practica2_SeCompletaProgramandoLosParametros" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1486980411" result="Passed" start-time="2026-11-16 05:33:35Z" end-time="2026-11-16 05:33:42Z" duration="7.020964" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1561" name="Practica3_SeCompletaCableandoElModulo" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica3_SeCompletaCableandoElModulo" methodname="Practica3_SeCompletaCableandoElModulo" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1042811293" result="Passed" start-time="2026-11-16 05:33:42Z" end-time="2026-11-16 05:33:44Z" duration="2.172282" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1564" name="Practica4_ConInterruptores_SeCompletaYLaCajaSeVe" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica4_ConInterruptores_SeCompletaYLaCajaSeVe" methodname="Practica4_ConInterruptores_SeCompletaYLaCajaSeVe" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="376993481" result="Passed" start-time="2026-11-16 05:33:44Z" end-time="2026-11-16 05:34:01Z" duration="16.550716" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1563" name="Practica4_SeCompletaOperandoElModulo" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica4_SeCompletaOperandoElModulo" methodname="Practica4_SeCompletaOperandoElModulo" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1164593125" result="Passed" start-time="2026-11-16 05:34:01Z" end-time="2026-11-16 05:34:24Z" duration="22.876085" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1571" name="Practica5_AcertarEnElPanel_MarcaElDiagnostico" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica5_AcertarEnElPanel_MarcaElDiagnostico" methodname="Practica5_AcertarEnElPanel_MarcaElDiagnostico" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1650468151" result="Passed" start-time="2026-11-16 05:34:24Z" end-time="2026-11-16 05:34:30Z" duration="6.504203" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1568" name="Practica5_SeCompletaConUnaAveriaForzada" fullname="VDF.Tests.VdfRecorridoPracticasTests.Practica5_SeCompletaConUnaAveriaForzada" methodname="Practica5_SeCompletaConUnaAveriaForzada" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1643199184" result="Passed" start-time="2026-11-16 05:34:30Z" end-time="2026-11-16 05:34:48Z" duration="17.685674" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1569" name="TodaAveria_SeNotaYSePuedeReparar" fullname="VDF.Tests.VdfRecorridoPracticasTests.TodaAveria_SeNotaYSePuedeReparar" methodname="TodaAveria_SeNotaYSePuedeReparar" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="1463132709" result="Passed" start-time="2026-11-16 05:34:48Z" end-time="2026-11-16 05:35:00Z" duration="12.166951" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1572" name="UnPasoManual_SePuedePasarPulsandoElBotonDeLaEscena" fullname="VDF.Tests.VdfRecorridoPracticasTests.UnPasoManual_SePuedePasarPulsandoElBotonDeLaEscena" methodname="UnPasoManual_SePuedePasarPulsandoElBotonDeLaEscena" classname="VDF.Tests.VdfRecorridoPracticasTests" runstate="Runnable" seed="218723292" result="Passed" start-time="2026-11-16 05:35:00Z" end-time="2026-11-16 05:35:01Z" duration="0.472348" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1573" name="VdfUsoAbusivoTests" fullname="VDF.Tests.VdfUsoAbusivoTests" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" testcasecount="19" result="Passed" start-time="2026-11-16 05:35:01Z" end-time="2026-11-16 05:39:36Z" duration="275.597764" total="19" passed="19" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1585" name="AporrearElTecladoDosMilVeces_NoRompeLaPantalla" fullname="VDF.Tests.VdfUsoAbusivoTests.AporrearElTecladoDosMilVeces_NoRompeLaPantalla" methodname="AporrearElTecladoDosMilVeces_NoRompeLaPantalla" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1073573219" result="Passed" start-time="2026-11-16 05:35:01Z" end-time="2026-11-16 05:35:12Z" duration="11.346708" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1579" name="ArrancarPracticasVeinteVeces_NoAcumulaObjetos" fullname="VDF.Tests.VdfUsoAbusivoTests.ArrancarPracticasVeinteVeces_NoAcumulaObjetos" methodname="ArrancarPracticasVeinteVeces_NoAcumulaObjetos" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1680891002" result="Passed" start-time="2026-11-16 05:35:12Z" end-time="2026-11-16 05:36:05Z" duration="52.575750" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[ATAQUE] 20 cambios de práctica: 45764 ms (2288 ms por cambio)
+]]></output>
+            </test-case>
+            <test-case id="1584" name="CambiarDePracticaConElHongoPulsado_DejaElModuloSano" fullname="VDF.Tests.VdfUsoAbusivoTests.CambiarDePracticaConElHongoPulsado_DejaElModuloSano" methodname="CambiarDePracticaConElHongoPulsado_DejaElModuloSano" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="176379248" result="Passed" start-time="2026-11-16 05:36:05Z" end-time="2026-11-16 05:36:14Z" duration="9.128769" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1582" name="DespertarYReiniciarEnMitadDelRetardo_NoResucitaElMotor" fullname="VDF.Tests.VdfUsoAbusivoTests.DespertarYReiniciarEnMitadDelRetardo_NoResucitaElMotor" methodname="DespertarYReiniciarEnMitadDelRetardo_NoResucitaElMotor" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="427454479" result="Passed" start-time="2026-11-16 05:36:14Z" end-time="2026-11-16 05:36:27Z" duration="13.144897" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1590" name="ElPlcConDtAbsurdos_NoSeSaltaNiCuelgaElRetardo" fullname="VDF.Tests.VdfUsoAbusivoTests.ElPlcConDtAbsurdos_NoSeSaltaNiCuelgaElRetardo" methodname="ElPlcConDtAbsurdos_NoSeSaltaNiCuelgaElRetardo" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="262216413" result="Passed" start-time="2026-11-16 05:36:27Z" end-time="2026-11-16 05:36:27Z" duration="0.404247" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1591" name="ElVariadorAceptaNaN_YSeLeEnvenenaLaFrecuencia" fullname="VDF.Tests.VdfUsoAbusivoTests.ElVariadorAceptaNaN_YSeLeEnvenenaLaFrecuencia" methodname="ElVariadorAceptaNaN_YSeLeEnvenenaLaFrecuencia" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="451201311" result="Passed" start-time="2026-11-16 05:36:27Z" end-time="2026-11-16 05:36:28Z" duration="0.405312" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1581" name="EmpezarCincoVecesEnElMismoFrame_NoDuplicaNada" fullname="VDF.Tests.VdfUsoAbusivoTests.EmpezarCincoVecesEnElMismoFrame_NoDuplicaNada" methodname="EmpezarCincoVecesEnElMismoFrame_NoDuplicaNada" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="142331444" result="Passed" start-time="2026-11-16 05:36:28Z" end-time="2026-11-16 05:36:28Z" duration="0.410290" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1575" name="EnchufarYDesenchufarDoscientasVeces_NiFugaNiAnclajesDuplicados" fullname="VDF.Tests.VdfUsoAbusivoTests.EnchufarYDesenchufarDoscientasVeces_NiFugaNiAnclajesDuplicados" methodname="EnchufarYDesenchufarDoscientasVeces_NiFugaNiAnclajesDuplicados" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1277224394" result="Passed" start-time="2026-11-16 05:36:28Z" end-time="2026-11-16 05:36:41Z" duration="12.361323" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[ATAQUE] 200 ciclos enchufar/desenchufar: 11795 ms (59,0 ms por cable)
+]]></output>
+            </test-case>
+            <test-case id="1588" name="EnLocalConRun_ElStopDelTableroNoPara_PeroElHongoSi" fullname="VDF.Tests.VdfUsoAbusivoTests.EnLocalConRun_ElStopDelTableroNoPara_PeroElHongoSi" methodname="EnLocalConRun_ElStopDelTableroNoPara_PeroElHongoSi" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="319928896" result="Passed" start-time="2026-11-16 05:36:41Z" end-time="2026-11-16 05:36:45Z" duration="4.800077" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1583" name="HongoYRearmeDoscientasVecesSeguidas_AcabaEnEstadoCoherente" fullname="VDF.Tests.VdfUsoAbusivoTests.HongoYRearmeDoscientasVecesSeguidas_AcabaEnEstadoCoherente" methodname="HongoYRearmeDoscientasVecesSeguidas_AcabaEnEstadoCoherente" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="289730383" result="Passed" start-time="2026-11-16 05:36:45Z" end-time="2026-11-16 05:36:54Z" duration="8.790480" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1592" name="IdentificadoresNulos_DeberianDevolverFalseEnVezDeReventar" fullname="VDF.Tests.VdfUsoAbusivoTests.IdentificadoresNulos_DeberianDevolverFalseEnVezDeReventar" methodname="IdentificadoresNulos_DeberianDevolverFalseEnVezDeReventar" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="118233296" result="Passed" start-time="2026-11-16 05:36:54Z" end-time="2026-11-16 05:36:55Z" duration="0.404364" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1586" name="ParametroAMedioEditar_SobreviveAlCambioDePracticaYSeGuardaDespues" fullname="VDF.Tests.VdfUsoAbusivoTests.ParametroAMedioEditar_SobreviveAlCambioDePracticaYSeGuardaDespues" methodname="ParametroAMedioEditar_SobreviveAlCambioDePracticaYSeGuardaDespues" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1057031884" result="Passed" start-time="2026-11-16 05:36:55Z" end-time="2026-11-16 05:37:01Z" duration="6.742716" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1589" name="ProvocarAveriasConElMotorGirando_NoRompeNadaYSeRepara" fullname="VDF.Tests.VdfUsoAbusivoTests.ProvocarAveriasConElMotorGirando_NoRompeNadaYSeRepara" methodname="ProvocarAveriasConElMotorGirando_NoRompeNadaYSeRepara" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1782200841" result="Passed" start-time="2026-11-16 05:37:01Z" end-time="2026-11-16 05:38:51Z" duration="109.281198" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1587" name="PulsarLoReEnElTeclado_DejaElTableroMuertoSinNingunAviso" fullname="VDF.Tests.VdfUsoAbusivoTests.PulsarLoReEnElTeclado_DejaElTableroMuertoSinNingunAviso" methodname="PulsarLoReEnElTeclado_DejaElTableroMuertoSinNingunAviso" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="36810989" result="Passed" start-time="2026-11-16 05:38:51Z" end-time="2026-11-16 05:38:59Z" duration="8.125531" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1577" name="RecablearEnMitadDelRetardo_NoCongelaElCambioDeNivel" fullname="VDF.Tests.VdfUsoAbusivoTests.RecablearEnMitadDelRetardo_NoCongelaElCambioDeNivel" methodname="RecablearEnMitadDelRetardo_NoCongelaElCambioDeNivel" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1582789861" result="Passed" start-time="2026-11-16 05:38:59Z" end-time="2026-11-16 05:39:09Z" duration="10.647180" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1580" name="RevisarElCableadoMilVecesEnUnFrame_NoCambiaElResultado" fullname="VDF.Tests.VdfUsoAbusivoTests.RevisarElCableadoMilVecesEnUnFrame_NoCambiaElResultado" methodname="RevisarElCableadoMilVecesEnUnFrame_NoCambiaElResultado" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="2138429083" result="Passed" start-time="2026-11-16 05:39:09Z" end-time="2026-11-16 05:39:12Z" duration="2.233728" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[[ATAQUE] 1000 revalidaciones en un frame: 78 ms
+]]></output>
+            </test-case>
+            <test-case id="1578" name="RomperElCableadoAlVencerElRetardo_NoDejaEstadoHibrido" fullname="VDF.Tests.VdfUsoAbusivoTests.RomperElCableadoAlVencerElRetardo_NoDejaEstadoHibrido" methodname="RomperElCableadoAlVencerElRetardo_NoDejaEstadoHibrido" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="1899500288" result="Passed" start-time="2026-11-16 05:39:12Z" end-time="2026-11-16 05:39:21Z" duration="9.693657" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1576" name="SacarElCableDelMotorConElMotorGirando_ParaElEjeSinTrabarse" fullname="VDF.Tests.VdfUsoAbusivoTests.SacarElCableDelMotorConElMotorGirando_ParaElEjeSinTrabarse" methodname="SacarElCableDelMotorConElMotorGirando_ParaElEjeSinTrabarse" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="569329499" result="Passed" start-time="2026-11-16 05:39:21Z" end-time="2026-11-16 05:39:29Z" duration="8.175386" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1574" name="TenderCienCablesYBorrarlos_NoDejaNiUnObjetoVivo" fullname="VDF.Tests.VdfUsoAbusivoTests.TenderCienCablesYBorrarlos_NoDejaNiUnObjetoVivo" methodname="TenderCienCablesYBorrarlos_NoDejaNiUnObjetoVivo" classname="VDF.Tests.VdfUsoAbusivoTests" runstate="Runnable" seed="502763022" result="Passed" start-time="2026-11-16 05:39:29Z" end-time="2026-11-16 05:39:36Z" duration="6.916570" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:/Users/julia/AppData/LocalLow/Universidad de Pamplona/Simulador VDF\TestResults.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
