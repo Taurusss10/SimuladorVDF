@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea5a826fdde60e4aa37e462fdca7ab4, type: 3}
+  m_Name: Practica_5
+  m_EditorClassIdentifier: VDF::VDF.VdfPractica
+  Numero: 5
+  Titulo: "Seguridad y diagn\xF3stico de fallas"
+  Descripcion: "Trabajar con el m\xF3dulo energizado de forma segura, usar la parada de emergencia y diagnosticar una aver\xEDa a partir de lo que se observa."
+  EmpezarConfigurado: 1
+  EmpezarCableado: 1
+  PermiteCablear: 1
+  Pasos:
+  - Instruccion: Antes de energizar, comprueba que no hay nadie manipulando bornes y que el motor puede girar libremente.
+    Pista: "En el equipo real esto no es un tr\xE1mite: el motor arranca solo en cuanto el PLC da la orden."
+    MensajeError: 
+    Advertencia: NUNCA se manipulan bornes con el tablero energizado. Abre el breaker antes de tocar un cable.
+    Condicion: 0
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Localiza la parada de emergencia antes de necesitarla, y comprueba que la alcanzas sin moverte del puesto.
+    Pista: Es el hongo rojo de la columna derecha.
+    MensajeError: 
+    Advertencia: "Si algo va mal, la seta es lo primero: primero se corta, despu\xE9s se diagnostica."
+    Condicion: 0
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Comprueba que el variador tiene tensi\xF3n y arranca el sistema."
+    Pista: START habilita; subir velocidad es lo que arranca el motor.
+    MensajeError: 
+    Advertencia: "A partir de aqu\xED el tablero est\xE1 energizado."
+    Condicion: 10
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Con el motor girando, acciona la parada de emergencia.
+    Pista: "F\xEDjate en que la frecuencia cae a cero de golpe, sin rampa de desaceleraci\xF3n: la seta no desacelera, corta."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 14
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Observa el piloto de FALLA y el indicador ALM del operador.
+    Pista: El variador queda en estado de falla, no simplemente parado. Por eso no basta con volver a pulsar START.
+    MensajeError: "Todav\xEDa no se ha producido ninguna falla."
+    Advertencia: 
+    Condicion: 17
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Rearma la parada de emergencia y vuelve a dejar el sistema listo.
+    Pista: 'Rearmar libera el enclavamiento, pero el sistema queda en reposo: hay que pulsar START otra vez.'
+    MensajeError: 
+    Advertencia: "Antes de rearmar, aseg\xFArate de que la causa que te hizo parar ya no est\xE1."
+    Condicion: 15
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "A partir de aqu\xED el m\xF3dulo tiene una aver\xEDa provocada. Opera con \xE9l y observa qu\xE9 hace y qu\xE9 no hace, antes de tocar ning\xFAn par\xE1metro."
+    Pista: "Compara lo que ves con lo que deber\xEDa pasar seg\xFAn la tabla de la pr\xE1ctica. La diferencia es la pista."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 0
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Di cu\xE1l crees que es la causa de la aver\xEDa."
+    Pista: "Piensa en qu\xE9 parte de la cadena falla: \xBFel PLC manda? \xBFel variador recibe? \xBFel variador entiende lo que recibe?"
+    MensajeError: "Esa no es la causa. Vuelve a observar el s\xEDntoma."
+    Advertencia: 
+    Condicion: 19
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Repara la aver\xEDa y comprueba que el m\xF3dulo vuelve a funcionar en las cuatro velocidades."
+    Pista: "Si era un par\xE1metro, corr\xEDgelo desde el teclado; si era un cable, vuelve a conectarlo."
+    MensajeError: 
+    Advertencia: Si tienes que tocar un cable, abre el breaker primero.
+    Condicion: 18
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Comprueba que no queda ning\xFAn aviso de configuraci\xF3n."
+    Pista: "El panel te dice qu\xE9 par\xE1metro se desv\xEDa y qu\xE9 efecto tendr\xEDa."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 5
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0

@@ -1,0 +1,909 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0314e399ee08834fa00d3353e3d0256, type: 3}
+  m_Name: VdfPanelLayout
+  m_EditorClassIdentifier: VDF::VDF.VdfPanelLayout
+  Ancho: 1.1
+  Alto: 0.85
+  Grosor: 0.03
+  ColorTablero: {r: 0.78, g: 0.8, b: 0.82, a: 1}
+  Elementos:
+  - Id: FUNC
+    Etiqueta: FUNC.
+    Tipo: 1
+    Posicion: {x: 0.085, y: 0.76}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.16, g: 0.72, b: 0.26, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 1
+  - Id: FUNC-A
+    Etiqueta: FUNC. A
+    Tipo: 0
+    Posicion: {x: 0.05, y: 0.698}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 0
+  - Id: FUNC-B
+    Etiqueta: FUNC. B
+    Tipo: 0
+    Posicion: {x: 0.120000005, y: 0.698}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 0
+  - Id: FALLA
+    Etiqueta: FALLA
+    Tipo: 1
+    Posicion: {x: 0.085, y: 0.6}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.85, g: 0.16, b: 0.14, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 1
+  - Id: FALLA-A
+    Etiqueta: FALLA A
+    Tipo: 0
+    Posicion: {x: 0.05, y: 0.53800005}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 0
+  - Id: FALLA-B
+    Etiqueta: FALLA B
+    Tipo: 0
+    Posicion: {x: 0.120000005, y: 0.53800005}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 0
+  - Id: E
+    Etiqueta: E
+    Tipo: 1
+    Posicion: {x: 0.085, y: 0.44}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.95, g: 0.68, b: 0.08, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 1
+  - Id: E-A
+    Etiqueta: E A
+    Tipo: 0
+    Posicion: {x: 0.05, y: 0.378}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 0
+  - Id: E-B
+    Etiqueta: E B
+    Tipo: 0
+    Posicion: {x: 0.120000005, y: 0.378}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Pilotos de estado
+    MostrarEtiqueta: 0
+  - Id: BREAKER
+    Etiqueta: BREAKER 3P
+    Tipo: 5
+    Posicion: {x: 0.265, y: 0.768}
+    Tamano: {x: 0.15, y: 0.08}
+    Profundidad: 0.035
+    ZMontaje: 0
+    Color: {r: 0.28, g: 0.29, b: 0.31, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 0
+  - Id: ETQ_BREAKER
+    Etiqueta: BREAKER TRIPOLAR
+    Tipo: 6
+    Posicion: {x: 0.265, y: 0.826}
+    Tamano: {x: 0.155, y: 0.016}
+    Profundidad: 0.001
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: BRK-L1
+    Etiqueta: L1
+    Tipo: 0
+    Posicion: {x: 0.215, y: 0.69}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.78, g: 0.14, b: 0.12, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: BRK-L2
+    Etiqueta: L2
+    Tipo: 0
+    Posicion: {x: 0.265, y: 0.69}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.1, g: 0.1, b: 0.11, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: BRK-L3
+    Etiqueta: L3
+    Tipo: 0
+    Posicion: {x: 0.315, y: 0.69}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: VCC24
+    Etiqueta: +24V
+    Tipo: 0
+    Posicion: {x: 0.215, y: 0.595}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.78, g: 0.14, b: 0.12, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: GND24
+    Etiqueta: GND
+    Tipo: 0
+    Posicion: {x: 0.315, y: 0.595}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.1, g: 0.1, b: 0.11, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: ETQ_24V
+    Etiqueta: VCC 24V IN
+    Tipo: 6
+    Posicion: {x: 0.265, y: 0.638}
+    Tamano: {x: 0.12, y: 0.016}
+    Profundidad: 0.001
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: TIERRA
+    Etiqueta: PE
+    Tipo: 0
+    Posicion: {x: 0.265, y: 0.51}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.14, g: 0.55, b: 0.22, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: ETQ_TIERRA
+    Etiqueta: TIERRA
+    Tipo: 6
+    Posicion: {x: 0.265, y: 0.552}
+    Tamano: {x: 0.1, y: 0.016}
+    Profundidad: 0.001
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Alimentacion
+    MostrarEtiqueta: 1
+  - Id: R/L1
+    Etiqueta: R/L1
+    Tipo: 0
+    Posicion: {x: 0.42, y: 0.775}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.78, g: 0.14, b: 0.12, a: 1}
+    Grupo: Entrada variador
+    MostrarEtiqueta: 1
+  - Id: S/L2
+    Etiqueta: S/L2
+    Tipo: 0
+    Posicion: {x: 0.49, y: 0.775}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.1, g: 0.1, b: 0.11, a: 1}
+    Grupo: Entrada variador
+    MostrarEtiqueta: 1
+  - Id: L/L3
+    Etiqueta: L/L3
+    Tipo: 0
+    Posicion: {x: 0.56, y: 0.775}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Entrada variador
+    MostrarEtiqueta: 1
+  - Id: ETQ_ENTRADA
+    Etiqueta: ENTRADA VARIADOR
+    Tipo: 6
+    Posicion: {x: 0.49, y: 0.822}
+    Tamano: {x: 0.2, y: 0.018}
+    Profundidad: 0.001
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Entrada variador
+    MostrarEtiqueta: 1
+  - Id: SUBIR
+    Etiqueta: SUBIR
+    Tipo: 2
+    Posicion: {x: 0.43, y: 0.648}
+    Tamano: {x: 0.034, y: 0.034}
+    Profundidad: 0.018
+    ZMontaje: 0
+    Color: {r: 0.15, g: 0.38, b: 0.78, a: 1}
+    Grupo: Control de velocidad
+    MostrarEtiqueta: 1
+  - Id: SUBIR-A
+    Etiqueta: SUBIR A
+    Tipo: 0
+    Posicion: {x: 0.395, y: 0.59000003}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Control de velocidad
+    MostrarEtiqueta: 0
+  - Id: SUBIR-B
+    Etiqueta: SUBIR B
+    Tipo: 0
+    Posicion: {x: 0.465, y: 0.59000003}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Control de velocidad
+    MostrarEtiqueta: 0
+  - Id: BAJAR
+    Etiqueta: BAJAR
+    Tipo: 2
+    Posicion: {x: 0.555, y: 0.648}
+    Tamano: {x: 0.034, y: 0.034}
+    Profundidad: 0.018
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Control de velocidad
+    MostrarEtiqueta: 1
+  - Id: BAJAR-A
+    Etiqueta: BAJAR A
+    Tipo: 0
+    Posicion: {x: 0.52, y: 0.59000003}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Control de velocidad
+    MostrarEtiqueta: 0
+  - Id: BAJAR-B
+    Etiqueta: BAJAR B
+    Tipo: 0
+    Posicion: {x: 0.59000003, y: 0.59000003}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Control de velocidad
+    MostrarEtiqueta: 0
+  - Id: V1
+    Etiqueta: V1
+    Tipo: 1
+    Posicion: {x: 0.398, y: 0.468}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.16, g: 0.72, b: 0.26, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 1
+  - Id: V1-A
+    Etiqueta: V1 A
+    Tipo: 0
+    Posicion: {x: 0.377, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V1-B
+    Etiqueta: V1 B
+    Tipo: 0
+    Posicion: {x: 0.419, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V2
+    Etiqueta: V2
+    Tipo: 1
+    Posicion: {x: 0.462, y: 0.468}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.16, g: 0.72, b: 0.26, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 1
+  - Id: V2-A
+    Etiqueta: V2 A
+    Tipo: 0
+    Posicion: {x: 0.441, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V2-B
+    Etiqueta: V2 B
+    Tipo: 0
+    Posicion: {x: 0.483, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V3
+    Etiqueta: V3
+    Tipo: 1
+    Posicion: {x: 0.526, y: 0.468}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.16, g: 0.72, b: 0.26, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 1
+  - Id: V3-A
+    Etiqueta: V3 A
+    Tipo: 0
+    Posicion: {x: 0.505, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V3-B
+    Etiqueta: V3 B
+    Tipo: 0
+    Posicion: {x: 0.54700005, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V4
+    Etiqueta: V4
+    Tipo: 1
+    Posicion: {x: 0.59000003, y: 0.468}
+    Tamano: {x: 0.03, y: 0.03}
+    Profundidad: 0.012
+    ZMontaje: 0
+    Color: {r: 0.16, g: 0.72, b: 0.26, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 1
+  - Id: V4-A
+    Etiqueta: V4 A
+    Tipo: 0
+    Posicion: {x: 0.569, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: V4-B
+    Etiqueta: V4 B
+    Tipo: 0
+    Posicion: {x: 0.61100006, y: 0.42}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 0
+  - Id: ETQ_VELOC
+    Etiqueta: VELOCIDAD
+    Tipo: 6
+    Posicion: {x: 0.494, y: 0.512}
+    Tamano: {x: 0.14, y: 0.016}
+    Profundidad: 0.001
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Indicadores de velocidad
+    MostrarEtiqueta: 1
+  - Id: V1000
+    Etiqueta: V1000
+    Tipo: 4
+    Posicion: {x: 0.77, y: 0.625}
+    Tamano: {x: 0.19, y: 0.3}
+    Profundidad: 0.085
+    ZMontaje: 0
+    Color: {r: 0.88, g: 0.87, b: 0.83, a: 1}
+    Grupo: Variador
+    MostrarEtiqueta: 0
+  - Id: U_MOT
+    Etiqueta: U
+    Tipo: 0
+    Posicion: {x: 0.705, y: 0.372}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.78, g: 0.14, b: 0.12, a: 1}
+    Grupo: Salida a motor
+    MostrarEtiqueta: 1
+  - Id: V_MOT
+    Etiqueta: V
+    Tipo: 0
+    Posicion: {x: 0.77, y: 0.372}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.1, g: 0.1, b: 0.11, a: 1}
+    Grupo: Salida a motor
+    MostrarEtiqueta: 1
+  - Id: W_MOT
+    Etiqueta: W
+    Tipo: 0
+    Posicion: {x: 0.835, y: 0.372}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Salida a motor
+    MostrarEtiqueta: 1
+  - Id: ETQ_MOTOR
+    Etiqueta: SALIDA A MOTOR
+    Tipo: 6
+    Posicion: {x: 0.77, y: 0.415}
+    Tamano: {x: 0.19, y: 0.018}
+    Profundidad: 0.001
+    ZMontaje: 0
+    Color: {r: 0.12, g: 0.12, b: 0.13, a: 1}
+    Grupo: Salida a motor
+    MostrarEtiqueta: 1
+  - Id: START
+    Etiqueta: START
+    Tipo: 2
+    Posicion: {x: 0.98, y: 0.76}
+    Tamano: {x: 0.034, y: 0.034}
+    Profundidad: 0.018
+    ZMontaje: 0
+    Color: {r: 0.16, g: 0.72, b: 0.26, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 1
+  - Id: START-A
+    Etiqueta: START A
+    Tipo: 0
+    Posicion: {x: 0.945, y: 0.702}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 0
+  - Id: START-B
+    Etiqueta: START B
+    Tipo: 0
+    Posicion: {x: 1.015, y: 0.702}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 0
+  - Id: STOP
+    Etiqueta: STOP
+    Tipo: 2
+    Posicion: {x: 0.98, y: 0.6}
+    Tamano: {x: 0.034, y: 0.034}
+    Profundidad: 0.018
+    ZMontaje: 0
+    Color: {r: 0.85, g: 0.16, b: 0.14, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 1
+  - Id: STOP-A
+    Etiqueta: STOP A
+    Tipo: 0
+    Posicion: {x: 0.945, y: 0.54200006}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 0
+  - Id: STOP-B
+    Etiqueta: STOP B
+    Tipo: 0
+    Posicion: {x: 1.015, y: 0.54200006}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 0
+  - Id: PE
+    Etiqueta: PARO EMERG.
+    Tipo: 3
+    Posicion: {x: 0.98, y: 0.432}
+    Tamano: {x: 0.058, y: 0.058}
+    Profundidad: 0.03
+    ZMontaje: 0
+    Color: {r: 0.85, g: 0.16, b: 0.14, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 1
+  - Id: PE-A
+    Etiqueta: PARO EMERG. A
+    Tipo: 0
+    Posicion: {x: 0.945, y: 0.36}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 0
+  - Id: PE-B
+    Etiqueta: PARO EMERG. B
+    Tipo: 0
+    Posicion: {x: 1.015, y: 0.36}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: 0
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Mando
+    MostrarEtiqueta: 0
+  - Id: PLACA_REGLETA
+    Etiqueta: 
+    Tipo: 5
+    Posicion: {x: 0.55, y: 0.1235}
+    Tamano: {x: 1.06, y: 0.185}
+    Profundidad: 0.008
+    ZMontaje: 0
+    Color: {r: 0.62, g: 0.64, b: 0.66, a: 1}
+    Grupo: Regleta
+    MostrarEtiqueta: 0
+  - Id: R+
+    Etiqueta: R+
+    Tipo: 0
+    Posicion: {x: 0.06, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: R-
+    Etiqueta: R-
+    Tipo: 0
+    Posicion: {x: 0.1225, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: S+
+    Etiqueta: S+
+    Tipo: 0
+    Posicion: {x: 0.185, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: S-
+    Etiqueta: S-
+    Tipo: 0
+    Posicion: {x: 0.2475, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: IG
+    Etiqueta: IG
+    Tipo: 0
+    Posicion: {x: 0.31, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: P1
+    Etiqueta: P1
+    Tipo: 0
+    Posicion: {x: 0.3725, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: P2
+    Etiqueta: P2
+    Tipo: 0
+    Posicion: {x: 0.435, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: PC
+    Etiqueta: PC
+    Tipo: 0
+    Posicion: {x: 0.4975, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: A1
+    Etiqueta: A1
+    Tipo: 0
+    Posicion: {x: 0.56, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: A2
+    Etiqueta: A2
+    Tipo: 0
+    Posicion: {x: 0.6225, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: +V
+    Etiqueta: +V
+    Tipo: 0
+    Posicion: {x: 0.685, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: AC_F112
+    Etiqueta: AC
+    Tipo: 0
+    Posicion: {x: 0.7475, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: AM
+    Etiqueta: AM
+    Tipo: 0
+    Posicion: {x: 0.81, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: AC_F114
+    Etiqueta: AC
+    Tipo: 0
+    Posicion: {x: 0.8725, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: MP
+    Etiqueta: MP
+    Tipo: 0
+    Posicion: {x: 0.935, y: 0.175}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 1
+    MostrarEtiqueta: 1
+  - Id: S1
+    Etiqueta: S1
+    Tipo: 0
+    Posicion: {x: 0.06, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: S2
+    Etiqueta: S2
+    Tipo: 0
+    Posicion: {x: 0.1225, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: S3
+    Etiqueta: S3
+    Tipo: 0
+    Posicion: {x: 0.185, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: S4
+    Etiqueta: S4
+    Tipo: 0
+    Posicion: {x: 0.2475, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: S5
+    Etiqueta: S5
+    Tipo: 0
+    Posicion: {x: 0.31, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: S6
+    Etiqueta: S6
+    Tipo: 0
+    Posicion: {x: 0.3725, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: SC
+    Etiqueta: SC
+    Tipo: 0
+    Posicion: {x: 0.435, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: HC
+    Etiqueta: HC
+    Tipo: 0
+    Posicion: {x: 0.4975, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: H1
+    Etiqueta: H1
+    Tipo: 0
+    Posicion: {x: 0.56, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: H2
+    Etiqueta: H2
+    Tipo: 0
+    Posicion: {x: 0.6225, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: RP
+    Etiqueta: RP
+    Tipo: 0
+    Posicion: {x: 0.685, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: U_F212
+    Etiqueta: U
+    Tipo: 0
+    Posicion: {x: 0.7475, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: V_F213
+    Etiqueta: V
+    Tipo: 0
+    Posicion: {x: 0.81, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: W_F214
+    Etiqueta: W
+    Tipo: 0
+    Posicion: {x: 0.8725, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: MA
+    Etiqueta: MA
+    Tipo: 0
+    Posicion: {x: 0.935, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: MB
+    Etiqueta: MB
+    Tipo: 0
+    Posicion: {x: 0.9975, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1
+  - Id: MC
+    Etiqueta: MC
+    Tipo: 0
+    Posicion: {x: 1.06, y: 0.072}
+    Tamano: {x: 0.022, y: 0.022}
+    Profundidad: 0.014
+    ZMontaje: -0.008
+    Color: {r: 0.55, g: 0.56, b: 0.58, a: 1}
+    Grupo: Regleta fila 2
+    MostrarEtiqueta: 1

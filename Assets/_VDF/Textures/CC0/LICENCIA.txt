@@ -1,0 +1,18 @@
+Texturas PBR de ambientCG (https://ambientcg.com)
+
+Licencia: CC0 1.0 Universal (dominio publico).
+No exige atribucion ni permiso, y permite uso comercial y academico.
+
+Materiales usados en este proyecto (https://ambientcg.com/view?id=<nombre>):
+  PaintedMetal004  -> chapa pintada del tablero
+  Plastic010       -> pulsadores y carcasa del variador
+  Plastic013A      -> piezas plasticas
+  Plastic017A      -> piezas plasticas
+  Metal027         -> bornes y partes metalicas
+  Metal032         -> partes metalicas
+  Metal048A        -> partes metalicas
+  Rubber004        -> aislante de los cables
+
+Resolucion 1K PNG. Mapas usados: Color, NormalGL, Roughness, Metalness.
+El mapa de mascara de URP (_MetallicGlossMap) se compone en el proyecto
+a partir de Metalness (canal R) y 1-Roughness (canal A).

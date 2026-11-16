@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea5a826fdde60e4aa37e462fdca7ab4, type: 3}
+  m_Name: Practica_4
+  m_EditorClassIdentifier: VDF::VDF.VdfPractica
+  Numero: 4
+  Titulo: "Operaci\xF3n del m\xF3dulo"
+  Descripcion: Arrancar el sistema, recorrer las cuatro velocidades con el retardo de 3 s entre cambios, bajar y parar.
+  EmpezarConfigurado: 1
+  EmpezarCableado: 1
+  PermiteCablear: 1
+  Pasos:
+  - Instruccion: "Comprueba que el variador tiene tensi\xF3n."
+    Pista: "El piloto DRV del operador se enciende cuando hay tensi\xF3n."
+    MensajeError: 
+    Advertencia: "A partir de aqu\xED el tablero est\xE1 energizado: no toques los bornes."
+    Condicion: 9
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Pulsa START para habilitar el sistema.
+    Pista: "START habilita, pero no arranca el motor todav\xEDa: eso lo hace subir velocidad."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 10
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Pulsa SUBIR para pasar a la velocidad 1 (10 Hz).
+    Pista: El cambio tarda unos 3 segundos en aplicarse.
+    MensajeError: 
+    Advertencia: 
+    Condicion: 11
+    Objetivo: 
+    Valor: 1
+    Tolerancia: 0
+  - Instruccion: Sube a la velocidad 2 (25 Hz).
+    Pista: "Ahora S5 est\xE1 activa y S6 no. M\xEDralo en el indicador V2."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 11
+    Objetivo: 
+    Valor: 2
+    Tolerancia: 0
+  - Instruccion: Sube a la velocidad 3 (35 Hz).
+    Pista: "Ahora es S6 la que est\xE1 activa, y S5 no."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 11
+    Objetivo: 
+    Valor: 3
+    Tolerancia: 0
+  - Instruccion: Sube a la velocidad 4 (50 Hz).
+    Pista: Con S5 y S6 a la vez se selecciona d1-04.
+    MensajeError: 
+    Advertencia: 
+    Condicion: 11
+    Objetivo: 
+    Valor: 4
+    Tolerancia: 0
+  - Instruccion: "Baja hasta la velocidad 1, una pulsaci\xF3n por nivel."
+    Pista: "Bajar en la velocidad 1 no para el motor: para eso est\xE1 STOP."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 12
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Pulsa STOP para parar el motor y reiniciar la selecci\xF3n."
+    Pista: Tras STOP hay que volver a pulsar START para poder operar otra vez.
+    MensajeError: 
+    Advertencia: 
+    Condicion: 13
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0

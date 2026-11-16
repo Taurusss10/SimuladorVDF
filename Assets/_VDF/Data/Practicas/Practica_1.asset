@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea5a826fdde60e4aa37e462fdca7ab4, type: 3}
+  m_Name: Practica_1
+  m_EditorClassIdentifier: VDF::VDF.VdfPractica
+  Numero: 1
+  Titulo: "Reconocimiento del m\xF3dulo"
+  Descripcion: "Identificar los componentes del tablero y los terminales del variador. No se energiza nada: es una pr\xE1ctica de observaci\xF3n."
+  EmpezarConfigurado: 1
+  EmpezarCableado: 0
+  PermiteCablear: 0
+  Pasos:
+  - Instruccion: "Recorre el tablero con la vista antes de tocar nada. F\xEDjate en que todo lo que se conecta tiene su bornera al lado."
+    Pista: "En modo escritorio puedes orbitar con el rat\xF3n; en VR, gira la cabeza."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 0
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Localiza el breaker tripolar y su borne de fase L1.
+    Pista: "Est\xE1 arriba a la izquierda, con la palanca roja."
+    MensajeError: Ese no es el componente que se pide.
+    Advertencia: 
+    Condicion: 1
+    Objetivo: BRK-L1
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Localiza la entrada de alimentaci\xF3n del variador, R/L1."
+    Pista: Arriba al centro, junto a S/L2 y L/L3.
+    MensajeError: Ese no es el componente que se pide.
+    Advertencia: 
+    Condicion: 1
+    Objetivo: R/L1
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Identifica los indicadores de velocidad V1 a V4 y sus borneras.
+    Pista: "Son los pilotos verdes del centro, bajo el r\xF3tulo VELOCIDAD. Cada uno tiene dos borneras debajo."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 2
+    Objetivo: Indicadores de velocidad
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: 'Identifica los pulsadores de mando: START, STOP y la parada de emergencia.'
+    Pista: "Est\xE1n en la columna de la derecha. El hongo rojo es la parada de emergencia."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 2
+    Objetivo: Mando
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: En la regleta, localiza el terminal S1 del variador.
+    Pista: Fila 2 de la regleta, el primero de los S.
+    MensajeError: Ese no es el componente que se pide.
+    Advertencia: 
+    Condicion: 1
+    Objetivo: S1
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Localiza el terminal SC, el com\xFAn de las entradas digitales."
+    Pista: "Tambi\xE9n en la fila 2, despu\xE9s de S6."
+    MensajeError: Ese no es el componente que se pide.
+    Advertencia: 
+    Condicion: 1
+    Objetivo: SC
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: Localiza la salida a motor U.
+    Pista: Bajo el variador, con V y W al lado.
+    MensajeError: Ese no es el componente que se pide.
+    Advertencia: 
+    Condicion: 1
+    Objetivo: U_MOT
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: "Comprueba que sabes decir, para cada piloto, qu\xE9 indica: FUNC. en verde, FALLA en rojo y E en \xE1mbar."
+    Pista: "Est\xE1n en la columna izquierda, cada uno con su par de borneras."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 0
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0

@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea5a826fdde60e4aa37e462fdca7ab4, type: 3}
+  m_Name: Practica_2
+  m_EditorClassIdentifier: VDF::VDF.VdfPractica
+  Numero: 2
+  Titulo: "Configuraci\xF3n del variador"
+  Descripcion: "Programar el V1000 desde su teclado con los par\xE1metros de la pr\xE1ctica. Se empieza desde valores de f\xE1brica."
+  EmpezarConfigurado: 0
+  EmpezarCableado: 1
+  PermiteCablear: 1
+  Pasos:
+  - Instruccion: "Antes de programar, inicializa el variador. Con A1-03 = 2220 quedar\xE1 en secuencia de 2 hilos y con los valores de f\xE1brica."
+    Pista: "ESC hasta el monitor, \u25B2 hasta -PAr-, ENTER, y ya est\xE1s en A1-03."
+    MensajeError: 
+    Advertencia: "Inicializar BORRA cualquier configuraci\xF3n anterior del equipo."
+    Condicion: 0
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: 'Programa la corriente nominal del motor: E2-01 = 1.2 A.'
+    Pista: Es el dato de la placa del motor, no el del variador.
+    MensajeError: "El par\xE1metro E2-01 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: E2-01
+    Valor: 1.2
+    Tolerancia: 0
+  - Instruccion: 'Programa la potencia del motor: E2-11 = 0.25 kW.'
+    Pista: 'Ojo: la potencia del MOTOR, que no es la del variador (0,55 kW).'
+    MensajeError: "El par\xE1metro E2-11 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: E2-11
+    Valor: 0.25
+    Tolerancia: 0
+  - Instruccion: "Activa la protecci\xF3n t\xE9rmica del motor: L1-01 = 1."
+    Pista: "Suele venir ya en 1 de f\xE1brica; compru\xE9balo en vez de teclearlo."
+    MensajeError: "El par\xE1metro L1-01 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: L1-01
+    Valor: 1
+    Tolerancia: 0
+  - Instruccion: "Fija la frecuencia m\xE1xima de salida: E1-04 = 60 Hz."
+    Pista: "Es la frecuencia M\xC1XIMA, no la nominal. El manual del m\xF3dulo se equivoca aqu\xED."
+    MensajeError: "El par\xE1metro E1-04 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: E1-04
+    Valor: 60
+    Tolerancia: 0
+  - Instruccion: "Fija el voltaje m\xE1ximo de salida: E1-05 = 220 V."
+    Pista: "Coincide con la tensi\xF3n de la red del m\xF3dulo."
+    MensajeError: "El par\xE1metro E1-05 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: E1-05
+    Valor: 220
+    Tolerancia: 0
+  - Instruccion: 'Haz que la referencia de frecuencia venga del operador: b1-01 = 0.'
+    Pista: "Con b1-01 = 1 la velocidad 1 se tomar\xEDa de la entrada anal\xF3gica A1, que no est\xE1 cableada."
+    MensajeError: "El par\xE1metro b1-01 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: b1-01
+    Valor: 0
+    Tolerancia: 0
+  - Instruccion: 'Haz que la orden de marcha venga de los terminales: b1-02 = 1.'
+    Pista: "Si no, las salidas del PLC hacia S1 no arrancar\xEDan el motor."
+    MensajeError: "El par\xE1metro b1-02 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: b1-02
+    Valor: 1
+    Tolerancia: 0
+  - Instruccion: 'Programa la velocidad 1: d1-01 = 10 Hz.'
+    Pista: "Cuatro d\xEDgitos y punto decimal."
+    MensajeError: "El par\xE1metro d1-01 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: d1-01
+    Valor: 10
+    Tolerancia: 0
+  - Instruccion: 'Programa la velocidad 2: d1-02 = 25 Hz.'
+    Pista: 
+    MensajeError: "El par\xE1metro d1-02 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: d1-02
+    Valor: 25
+    Tolerancia: 0
+  - Instruccion: 'Programa la velocidad 3: d1-03 = 35 Hz.'
+    Pista: 
+    MensajeError: "El par\xE1metro d1-03 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: d1-03
+    Valor: 35
+    Tolerancia: 0
+  - Instruccion: 'Programa la velocidad 4: d1-04 = 50 Hz.'
+    Pista: 
+    MensajeError: "El par\xE1metro d1-04 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: d1-04
+    Valor: 50
+    Tolerancia: 0
+  - Instruccion: 'Asigna a S1 la marcha adelante de 2 hilos: H1-01 = 40.'
+    Pista: "El manual del m\xF3dulo dice 1, y es un error: 1 es LOCAL/REMOTE, que NO arranca el motor."
+    MensajeError: "Con H1-01 distinto de 40, S1 no da orden de marcha y el motor no arrancar\xE1."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: H1-01
+    Valor: 40
+    Tolerancia: 0
+  - Instruccion: 'Asigna a S5 la multi-velocidad 1: H1-05 = 3.'
+    Pista: Si inviertes H1-05 y H1-06, las velocidades 2 y 3 salen cambiadas.
+    MensajeError: "El par\xE1metro H1-05 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: H1-05
+    Valor: 3
+    Tolerancia: 0
+  - Instruccion: 'Asigna a S6 la multi-velocidad 2: H1-06 = 4.'
+    Pista: 
+    MensajeError: "El par\xE1metro H1-06 todav\xEDa no vale lo que se pide."
+    Advertencia: 
+    Condicion: 3
+    Objetivo: H1-06
+    Valor: 4
+    Tolerancia: 0
+  - Instruccion: "Comprueba que no queda ning\xFAn aviso de configuraci\xF3n."
+    Pista: "Si algo falta, el panel te dice qu\xE9 par\xE1metro y qu\xE9 efecto tendr\xEDa."
+    MensajeError: 
+    Advertencia: 
+    Condicion: 5
+    Objetivo: 
+    Valor: 0
+    Tolerancia: 0
